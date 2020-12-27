@@ -1,1 +1,1 @@
-Hãy liệt kê chọ tên sinh viên, mã số sinh viên, tên môn học khác môn học Xử lý ngôn ngữ tự nhiên?
+Hãy liệt kê họ tên sinh viên, mã số sinh viên, tên môn học khác môn học Xử lý ngôn ngữ tự nhiên?
