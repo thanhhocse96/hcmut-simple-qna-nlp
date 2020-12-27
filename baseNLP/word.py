@@ -8,4 +8,4 @@ class Word:
         self.agr = agr
 
     def setName(self, contents):
-        self.name = no_accent_vietnamese
+        self.name = no_accent_vietnamese(contents)
