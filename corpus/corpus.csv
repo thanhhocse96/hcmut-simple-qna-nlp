@@ -1,0 +1,25 @@
+word,n-gram,cat
+sinh viên,2,N
+nào,1,ADV
+học,1,V
+môn,1,N
+xử,1,V
+xử lý,2,V
+ngôn ngữ,2,N
+tự nhiên,2,N
+hãy,1,ADV
+cho,1,V
+cho biết,2,V
+có,1,V
+mã,1,N
+mã số,2,N
+ở,1,"P, V"
+phòng,1,N
+ngày,1,N
+mấy,1,"DET, ADV"
+tiết,1,N
+liệt kê,2,V
+họ,1,N
+tên,1,N
+họ tên,2,N
+môn học,2,N
