@@ -17,13 +17,3 @@ def no_accent_vietnamese(s):
     s = re.sub(r'[Đ]', 'D', s)
     s = re.sub(r'[đ]', 'd', s)
     return s
-
-if __name__ == '__main__':
-    print(no_accent_vietnamese("Việt Nam Đất Nước Con Người"))
-    print(no_accent_vietnamese("Welcome to Vietnam !"))
-    print(no_accent_vietnamese("VIỆT NAM ĐẤT NƯỚC CON NGƯỜI"))
-
-# Output
-# Viet Nam Dat Nuoc Con Nguoi
-# Welcome to Vietnam !
-# VIET NAM DAT NUOC CON NGUOI
