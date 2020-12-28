@@ -4,4 +4,6 @@ class Sentence:
         self.words = words
         self.sentenceType = sentenceType
 
-    
+    # 
+    def setSentenceType():
+        pass
