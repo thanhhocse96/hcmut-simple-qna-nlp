@@ -8,5 +8,3 @@ class Student:
         self.start_time = start_time
         self.class_length = class_length
 
-    def 
-
