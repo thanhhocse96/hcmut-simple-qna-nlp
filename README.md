@@ -11,8 +11,9 @@ Từ các câu trong input tạo được tập từ trong thư mục _corpus/co
 + V: động từ
 + PREP: giới từ
 + ADV: trạng từ
-+ P: Đại từ
++ PRO: Đại từ
 + NUM: Số từ
++ NAME: Tên riêng
 ### 2.2 Ngữ pháp
 Các luật ngữ pháp cơ bản được sử dụng [1]:
 + S -> NP VP
@@ -20,6 +21,9 @@ Các luật ngữ pháp cơ bản được sử dụng [1]:
 + PP -> PREP N
 + VP -> V NP
 + VP -> ADV V NP
+### Một số lối tắt (heuristic shortcut) được sử dụng (Khuyến nghị: không sử dụng trên thực tế)
+1. Sử dụng dữ liệu sinh viên từ _inputs/students.csv_ để thành lập loại từ tên riêng (name entity) và đưa thẳng vào corpus 
+2. Trong _corpus/corpus.csv_ có mục _name-index_ dùng để đánh số chỉ mục cho tên của 1 từ với đứng trong nhiều nhóm loại từ 
 
 ## 3. Một số thư mục và chức năng:
 1. data: định nghĩa lớp chức năng của dữ liệu đầu vào
