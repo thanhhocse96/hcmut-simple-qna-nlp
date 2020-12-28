@@ -26,7 +26,8 @@ Các luật ngữ pháp cơ bản được sử dụng [1]:
 1. Sử dụng dữ liệu sinh viên từ _inputs/students.csv_ để thành lập loại từ tên riêng (name entity) và đưa thẳng vào corpus. Technical debt: bỏ qua quá trình nhận dạnh thực thể tên riêng - name entity
 2. Trong _corpus/corpus.csv_ có mục _name-index_ dùng để đánh số chỉ mục cho tên của 1 từ với đứng trong nhiều nhóm loại từ 
 3. Một số technical debt: _corpus-loader_,...
-4. Không tuân thủ các nguyên tắc trong design pattern
+4. Trong quá trình nhận dạng _query type_ (dạng câu hỏi) mặc định bỏ qua loại _YNQuery_ luôn xác định là _WHQuery_
+5. Không tuân thủ các nguyên tắc trong design pattern
 
 ## 3. Một số thư mục và chức năng:
 1. data: định nghĩa lớp chức năng của dữ liệu đầu vào
