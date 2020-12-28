@@ -15,3 +15,16 @@ class SENTENCE_TYPE(enum.Enum):
     YNQUERY = 3
     WHQUERY = 4
 
+class N_GRAM(enum.Enum):
+    ONE_GRAM = 1
+    TWO_GRAM = 2
+    MORE_GRAM = 3
+
+class WORD_CAT(enum.Enum):
+    NOUN = 1
+    VERB = 2
+    PREP = 3
+    ADV = 4
+    PRO = 5
+    NUM = 6
+    NAME = 7
