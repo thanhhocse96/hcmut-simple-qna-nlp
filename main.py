@@ -15,12 +15,11 @@ from baseNLP.word import Word
 #Load list of Students
 students = loadStudents(const.STUDENTS_CSV)
 #Load corpus
-corpus_loader(const.CORPUS_CSV, const.STUDENTS_CSV)
-corpus = pd.read_csv(const.CORPUS_CSV)
+corpus_list = corpus_loader(const.CORPUS_CSV, const.STUDENTS_CSV)
 
 def main():
     # print(students)
-    # print(corpus)
+    print(corpus_list)
     pass
 
 if __name__ == "__main__":

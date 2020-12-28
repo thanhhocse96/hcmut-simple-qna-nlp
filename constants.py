@@ -29,3 +29,4 @@ class WORD_CAT(enum.Enum):
     PRO = 5
     NUM = 6
     NAME = 7
+    OTHER = 8
