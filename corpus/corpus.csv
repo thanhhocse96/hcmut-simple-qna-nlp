@@ -1,27 +1,28 @@
-word,n-gram,cat
-sinh viên,2,N
-nào,1,ADV
-học,1,V
-môn,1,N
-xử,1,V
-xử lý,2,V
-ngôn ngữ,2,N
-tự nhiên,2,N
-hãy,1,ADV
-cho,1,V
-cho biết,2,V
-có,1,V
-mã,1,N
-mã số,2,N
-ở,1,V
-ở,1,PREP
-phòng,1,N
-ngày,1,N
-mấy,1,DET
-mấy,1,ADV
-tiết,1,N
-liệt kê,2,V
-họ,1,N
-tên,1,N
-họ tên,2,N
-môn học,2,N
+word,n-gram,cat,name-index
+sinh viên,2,N,1
+nào,1,ADV,1
+học,1,V,1
+môn,1,N,1
+xử,1,V,1
+xử lý,2,V,1
+ngôn ngữ,2,N,1
+tự nhiên,2,N,1
+hãy,1,ADV,1
+cho,1,V,1
+cho biết,2,V,1
+có,1,V,1
+mã,1,N,1
+số,1,N,1
+mã số,2,N,1
+ở,1,V,1
+ở,1,PREP,2
+phòng,1,N,1
+ngày,1,N,1
+mấy,1,DET,1
+mấy,1,ADV,2
+tiết,1,N,1
+liệt kê,2,V,1
+họ,1,N,1
+tên,1,N,1
+họ tên,2,N,1
+môn học,2,N,1

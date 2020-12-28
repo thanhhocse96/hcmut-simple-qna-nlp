@@ -1,6 +1,7 @@
 import enum
 
 CORPUS_CSV = "corpus/corpus.csv"
+CORPUS_HEADER_LIST = list(["word", "n-gram", "cat", "name-index"])
 
 STUDENTS_CSV = "input/students.csv"
 STUDENTS_HEADER_LIST = list(["full_name", "id", "subject", "room", "day", "start_time", "class_length"])
