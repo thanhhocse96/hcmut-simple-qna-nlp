@@ -1,7 +1,7 @@
 from utils import no_accent_vietnamese
 
 class Word: 
-    def __init__(self, name, content, category, ngram, agr):
+    def __init__(self, name, content, category, agr):
         self.name = name
         self.content = content
         self.category = category
