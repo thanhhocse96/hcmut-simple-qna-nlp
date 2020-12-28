@@ -23,9 +23,10 @@ Các luật ngữ pháp cơ bản được sử dụng [1]:
 + VP -> V NP
 + VP -> ADV V NP
 ### 2.3 Một số lối tắt (heuristic shortcut) được sử dụng (Khuyến nghị: không sử dụng trên thực tế)
-1. Sử dụng dữ liệu sinh viên từ _inputs/students.csv_ để thành lập loại từ tên riêng (name entity) và đưa thẳng vào corpus 
+1. Sử dụng dữ liệu sinh viên từ _inputs/students.csv_ để thành lập loại từ tên riêng (name entity) và đưa thẳng vào corpus. Technical debt: bỏ qua quá trình nhận dạnh thực thể tên riêng - name entity
 2. Trong _corpus/corpus.csv_ có mục _name-index_ dùng để đánh số chỉ mục cho tên của 1 từ với đứng trong nhiều nhóm loại từ 
 3. Một số technical debt: _corpus-loader_,...
+4. Không tuân thủ các nguyên tắc trong design pattern
 
 ## 3. Một số thư mục và chức năng:
 1. data: định nghĩa lớp chức năng của dữ liệu đầu vào
