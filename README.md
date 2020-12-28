@@ -18,6 +18,7 @@ Từ các câu trong input tạo được tập từ trong thư mục _corpus/co
 Các luật ngữ pháp cơ bản được sử dụng [1]:
 + S -> NP VP
 + NP -> N
++ NP -> NAME
 + PP -> PREP N
 + VP -> V NP
 + VP -> ADV V NP
