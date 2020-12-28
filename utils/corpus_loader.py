@@ -39,7 +39,7 @@ def corpus_loader(corpus_file, name_entity_file):
         
         corpus_word = Word(
             no_accent_vietnamese(row[const.CORPUS_HEADER_LIST[0]]).upper() + str(row[const.CORPUS_HEADER_LIST[3]]),
-            row[const.CORPUS_HEADER_LIST[0]],
+            row[const.CORPUS_HEADER_LIST[0]].lower(),
             category_define(row[const.CORPUS_HEADER_LIST[2]])
         )
 
@@ -58,7 +58,7 @@ def corpus_loader(corpus_file, name_entity_file):
         if ele not in corpus_list[2].word_list:
             corpus_word = Word(
                 "NAME",
-                ele,
+                ele.lower(),
                 const.WORD_CAT.NAME
             )
             corpus_list[2].word_list.append(corpus_word)

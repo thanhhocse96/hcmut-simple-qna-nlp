@@ -5,5 +5,5 @@ class Sentence:
         self.sentenceType = sentenceType
 
     # 
-    def setSentenceType():
+    def setSentenceType(self):
         pass
